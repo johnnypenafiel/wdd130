@@ -1,0 +1,13 @@
+body {
+    background-color: gray;
+    text-align: center;
+    align-content: center;
+}
+header {
+    background-color:gray;
+}
+.icon {
+    border: 10px solid darkgray;
+    border-radius: 150px;
+    margin: 50px;
+}
