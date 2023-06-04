@@ -48,11 +48,11 @@ nav {
 }
 #hero-msg h1 {
     font-size: 300%;
+    font-family: 'Lucida handwriting', 'Brush Script M7', 'cursive'; 
+    color:white;
     text-shadow: #1a1a20;
     background-color: none;
     padding: 0%;
-    color:white;
-    font-family: 'Lucida handwriting', 'Brush Script M7', 'cursive'; 
     text-shadow: 3px  3px 3px black;
 }
 #hero-msg h4{
