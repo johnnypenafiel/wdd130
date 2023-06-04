@@ -31,7 +31,7 @@ nav {
     margin-top: -125px;
 }
 #hero-img {
-    width: 100%;
+    width: 50%;
 }
 #hero-box {
     grid-column: 1/4;
