@@ -52,7 +52,7 @@ nav {
     background-color: none;
     padding: 0%;
     color:white;
-    font-family: 'Lucida handwriting';
+    font-family: 'Lucida handwriting', 'Brush Script M7', 'cursive'; 
     text-shadow: 3px  3px 3px black;
 }
 #hero-msg h4{
