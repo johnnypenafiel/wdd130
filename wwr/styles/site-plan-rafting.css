@@ -64,7 +64,7 @@ header > h1, header > h2 {
   color: var(--headline-color-on-color);
 }
 p {
-  font-family: var(--paragraph-font);
+  font-family: "Lucida Console";
   color: var(--paragraph-color-on-white);
   padding: 1em;
 }
@@ -82,16 +82,18 @@ p {
   height: 3em;
 }
 .primary {
-  background-color: var(--primary-color);
+  background-color: #5cd8ce;
 }
 .secondary {
-  background-color: var(--secondary-color);
+  background-color: #F7F7F7;
+  color: black;
 }
 .accent1 {
-  background-color: var(--accent1-color);
+  background-color: #000000;
+  color: white;
 }
 .accent2{
-  background-color: var(--accent2-color);
+  background-color:#b57a2d;
 }
 p.colored {
   background-color: var(--paragraph-background-color);
