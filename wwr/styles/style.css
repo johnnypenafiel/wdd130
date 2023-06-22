@@ -394,3 +394,77 @@ header a img {
     left: 80%;
     top: 2%;
 }
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+form {
+    margin: 0 auto;
+    width: 600px;
+    
+    padding-right: 2em;
+    border: 5px solid #ccc;
+    border-radius: 0em;
+}
+  
+  ul {
+    list-style: none;
+    margin: 50;
+
+}
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    display: inline-block;
+    width: 400px;
+ }
+  
+  input,
+  textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #000;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 20em;
+    width: 25em;
+  }
+  
+  .button {
+    
+    list-style: none;
+    
+  }
+  
+  button {
+    width: 20em;
+    height: 3em;
+    margin: 5%;
+    margin-left: 12%;
+ }
+  #name {
+    width: 25em;
+  }
+  #mail {
+    width: 25em;
+}
+ 
