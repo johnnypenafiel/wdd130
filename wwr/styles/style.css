@@ -468,13 +468,14 @@ form {
     width: 25em;
 }
 #feedback {
-    background-color: antiquewhite;
+    background-color: rgba(255,255,255,0.4);
+    color: white;
+    text-shadow: 5px  3px 5px black;
     position: absolute;
-    top: 0;
+    top: 40%;
     left: 0;
     right: 0;
     padding: .5em;
-    /* make this element invisible until we are ready for it */
     display: none;      
 }
 .moveDown {
