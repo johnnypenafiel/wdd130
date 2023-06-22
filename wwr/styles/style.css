@@ -264,8 +264,8 @@ header a img {
 .h8 {
     display: grid;
     grid-column: 2/4;
-    font-size: 400%;
-    margin-top: -210px;
+    font-size: 225%;
+    margin-top: -190px;
     margin-left: 400px;
     width: 30%;
     padding: 0px;
@@ -414,6 +414,7 @@ form {
     padding-right: 2em;
     border: 5px solid #ccc;
     border-radius: 0em;
+    margin-bottom: 10%;
 }
   
   ul {
