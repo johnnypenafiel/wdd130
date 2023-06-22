@@ -275,6 +275,7 @@ header a img {
 #rivers-hero-img {
     padding: 20px;
     background-color: black;
+    margin-top: 10%;
 }
 .rivers_home_grid {
     display: grid;
