@@ -1,0 +1,194 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    align-self:normal;
+}
+body {
+    font-size: 22px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color:beige;
+    background-color:#4BB18E;
+}
+header {
+    color: white;
+    font-family: 'Courier New', Courier, 'Lucida Console', monospace;
+    background-color: rgba(0, 0, 0,0.1);
+   
+}
+nav {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: repeat 1fr 1fr 1fr 1fr;
+    
+}
+.pps-logo {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 12.5%;
+    left: 10%;
+}
+.pps-logo:hover {
+    height: 10%;
+    border-radius: 100%;
+    border:2.5px solid white;
+}
+.services-button {
+    display: grid;
+    grid-area: 1 / 12 / 2 / 15;
+    color: white;
+    padding: 30px;
+    background-color: rgba(220,195,122,0.9);
+    text-align: center;
+    margin: 10px;
+    text-decoration: none;
+    text-shadow: 3px  3px 3px black;
+    
+}
+.testimonials-button {
+    display: grid;
+    grid-area: 3 / 12 / 4 / 15;
+    color: white;
+    padding: 30px;
+    background-color:rgba(220,195,122,0.9);
+    align-content: center;
+    margin: 10px;
+    font-size: 10;
+    text-decoration: none;
+    text-shadow: #1a1a20;
+    text-shadow: 3px  3px 3px black;
+    
+}
+.h8 {
+    position: absolute;
+    color: white;
+    top: -1%;
+    right: 35%;
+    font-size: 1.5em;
+    padding: 30px;
+    border: 10px solid white;
+    border-style: double;
+    text-shadow: 3px  3px 3px black;
+}
+.brush {
+    position: absolute;
+    top: 5%;
+    right: 35%;
+    z-index: -1;
+    width: 480px;
+    height: 150px;
+}
+#pps-hero-img {
+    width:100%;
+    background-color: rgba(52, 49, 54, 0.1);
+    z-index: -1;
+}
+.cape {
+    position: absolute;
+    top: 33.5%;
+    left: 0;
+    width: 100%;
+    height: 116.5%;
+    background-color: rgba(0, 0, 0,0.1);
+  }
+  #pps-home-title {
+    position: absolute;
+    top: 110%;
+    text-shadow: 2px  6px 6px black;
+    font-size: 3.5em;
+    width: 100%; 
+    text-decoration: wavy;
+    background-color: rgba(204,184,178,0.5);
+    font-style: italic;
+  }
+  #pss-intro-paragraph {
+    padding: 50px;
+    margin: 100px;
+    background-color: rgba(220,195,122,0.7) ;
+    font-size: 1.5em;
+    text-shadow: 3px  3px 3px black;
+    font-style: oblique;
+  }
+  .gallery {
+    width: 100%;
+    height: 200px;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  .image-container {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .image-container img {
+    width: 200px;
+    height: auto;
+  }
+#gallery {
+    background-color:rgba(204,184,178,0.5);
+    padding: 25px;
+    margin: 100px;
+}
+footer {
+    background-color: rgba(0, 0, 0,0.4);
+}
+.fb {
+    border: 10px solid white;
+    justify-content: space-around;
+    padding: 25px;
+    margin: 20px 200px 20px 20px;
+}
+.twitter {
+    border: 10px solid white;
+    padding: 25px;
+    margin: 20px 20px 20px 20px;
+}
+.ig {
+    border:10px solid white;
+    padding: 25px;
+    margin: 20px 20px 20px 200px;
+}
+.social {
+    display: flex;
+    justify-content:  center;
+    
+}
+.contactus {
+    font-style: none;
+    color: white;
+}
+nav a:hover {
+    background-color: rgba(204,184,178,0.8);
+    color: white;
+    width: 80%;
+    
+}
+.fb:hover{
+    background-color: rgba(204,184,178,0.8);
+    color: black;
+}
+.twitter:hover{
+    background-color: rgba(204,184,178,0.8);
+    color: black;
+}
+.ig:hover{
+    background-color: rgba(204,184,178,0.8);
+    color: black;
+}
+.site-plan {
+    font-style:italic;
+    text-decoration: none;
+    color:white;
+}
+.books {
+    justify-content: space-around;
+    padding: 25px;
+    margin: 0px 50px 0px 0px;
+}
+.lupa {
+    padding: 25px;
+    margin: 0px 0px 0px 50px;
+}
