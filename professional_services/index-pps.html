@@ -4,7 +4,7 @@
     <link type="text/css" rel="stylesheet" href="styles/pps.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> PPS-Peñafiel Professional Services </title>
+<title>PPS-Peñafiel Professional Services </title>
 </head>
 <body>
     <div id="pps-content">
@@ -17,8 +17,9 @@
             </nav>
         </header>
         <div id="pps_hero">
-            <p class="h8"> PEÑAFIEL <br> PROFESSIONAL SERVICES</p>
-            <img class="brush" src="images/pps-logo-brush.png" alt="brush logo">
+            <div id="hero-box-pps">
+                <p class="h8"> PEÑAFIEL <br> PROFESSIONAL SERVICES</p>
+                <img class="brush" src="images/pps-logo-brush.png" alt="brush logo">
             <div id="pps-hero">
                 <div id="pps-hero-box">
                     <img id="pps-hero-img" src="images/pps-hero-img.JPG" alt="A man speaking using a microphone">
@@ -26,22 +27,61 @@
                 </div>
                 <section id="pps-hero-msg">
                     <h1 id="pps-home-title">Become a professional <br> with us</h1>
+                </section>
+            </div>
+            <main class="home-grid-pps">
+                <section class="paragraph1">
                     <h2 id="pss-intro-paragraph">
                         ¿What is PPS? <br>
-                        PPS (Peñafiel Professional Services) is a website run by his only one owner,
+                        <br>PPS (Peñafiel Professional Services) is a website run by his only one owner,
                         Johnny Peñafiel Mera. An economist, graduated from Universidad Técnica de Machala,
-                        in 2020. He has gotten some prizes because of being an outstanding student.
+                        in 2020. <br> <br>He has gotten some prizes because of being an outstanding student.
                         His B1 certificate has allowed him to get five years of experience teaching English 
-                        to young from 11 to 20 years old in some schools. In this days he is studying the 
+                        to young from 11 to 20 years old in some schools.<br><br> In this days he is studying the 
                         Software Development bachelor degree at Brigham Young University, Idaho, which make 
                         a wider range of services to Ecuadorian communities.</h2>
                 </section>
-                <section id="gallery">    
+                <section class="gallery">    
                     <img class="books" src="images/books.png" width="200" height="300" alt="some books">
                     <img src="images/pps-special.gif" alt="Pps-gif">
                     <img class="lupa" src="images/lupa.png" width="200" height="300"  alt="An object to research">
-                    
                 </section>
+                <section class="timer"> 
+                    <p id="demo"></p>
+                    <div class="timer">
+                        <script class="timer">
+                        // Set the date we're counting down to
+                        var countDownDate = new Date("Jul 8, 2023 23:00:00").getTime();
+
+                        // Update the count down every 1 second
+                        var x = setInterval(function() {
+
+                            // Get today's date and time
+                            var now = new Date().getTime();
+
+                            // Find the distance between now and the count down date
+                            var distance = countDownDate - now;
+
+                            // Time calculations for days, hours, minutes and seconds
+                            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                            // Display the result in the element with id="demo"
+                            document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                            + minutes + "m " + seconds + "s ";
+
+                            // If the count down is finished, write some text
+                            if (distance < 0) {
+                                clearInterval(x);
+                                document.getElementById("demo").innerHTML = "EXPIRED";
+                                }
+                            }, 1000);
+                        </script>
+                    </div>
+                </section>
+            </main>
         <footer>
             <p>PPS Services &copy; 2023 - Johnny Peñafiel</p>
             <p><a class="site-plan" href="site-plan-pps.html">Site Plan</a></p>
@@ -58,5 +98,6 @@
                 </a>
             </div>
         </footer>
+    </div>
 </body>
 </html>

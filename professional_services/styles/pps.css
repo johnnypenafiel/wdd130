@@ -61,16 +61,44 @@ nav {
     text-shadow: 3px  3px 3px black;
     
 }
+.home-grid-pps {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
 .h8 {
     position: absolute;
-    color: white;
-    top: -1%;
-    right: 35%;
+    top: 5%;
+    right:38%;
     font-size: 1.5em;
-    padding: 30px;
-    border: 10px solid white;
-    border-style: double;
     text-shadow: 3px  3px 3px black;
+}
+.paragraph1 {
+    grid-column: 2/25;
+    grid-row: 1/7;
+    margin-top: 5%;
+    font-size: 1.5em;
+    border: 7.5px solid white;
+    text-shadow: 3px  3px 3px black;
+    background-color: rgba(220,195,122,1) ;
+
+}
+.gallery {
+    grid-column: 2/25;
+    grid-row: 7/15;
+    margin-top: 5%;
+    width: 100%;
+    height: 200px;
+    overflow-x: auto;
+    white-space: nowrap;
+    border:1px solid white;
+}
+.timer {
+    grid-column: 2/25;
+    grid-row: 8/9;
+    margin-top: 5%;
+    font-size: 3em;
+    border:1px solid white;
 }
 .brush {
     position: absolute;
@@ -93,7 +121,7 @@ nav {
     height: 116.5%;
     background-color: rgba(0, 0, 0,0.1);
   }
-  #pps-home-title {
+#pps-home-title {
     position: absolute;
     top: 110%;
     text-shadow: 2px  6px 6px black;
@@ -104,35 +132,19 @@ nav {
     font-style: italic;
   }
   #pss-intro-paragraph {
-    padding: 50px;
-    margin: 100px;
+    padding: 150px;
     background-color: rgba(220,195,122,0.7) ;
     font-size: 1.5em;
     text-shadow: 3px  3px 3px black;
     font-style: oblique;
-  }
-  .gallery {
-    width: 100%;
-    height: 200px;
-    overflow-x: auto;
-    white-space: nowrap;
-  }
-  
-  .image-container {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  
-  .image-container img {
-    width: 200px;
-    height: auto;
-  }
+  }  
 #gallery {
     background-color:rgba(204,184,178,0.5);
     padding: 25px;
     margin: 100px;
 }
 footer {
+    margin-top: 5%;
     background-color: rgba(0, 0, 0,0.4);
 }
 .fb {
@@ -192,3 +204,4 @@ nav a:hover {
     padding: 25px;
     margin: 0px 0px 0px 50px;
 }
+
