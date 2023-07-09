@@ -280,36 +280,3 @@ nav a:hover {
     background-color:rgba(204,184,178,0.75);
 
 }
-@media screen and (max-width: 900px) {
-    #pps_hero, .home-grid-pps {
-        display: block;
-        height: auto;
-    }
-    nav, footer {
-        flex-direction: column;
-    }
-    nav {
-        display: block;
-        padding: 15px;
-    }
-    #pps_hero {
-        margin-top: 0;
-    }
-    #pps-hero-msg {
-        margin-top: 0;
-    }
-    }
-    .pps-home-title {
-        font-size: 25px;
-        color: #6f7364;
-    }
-    .home-grid-pps, .gallery, .timer, .nose1, .nose2 { 
-        margin: 50px auto;
-        width: 60%;
-    }
-    #background {
-        display: none;
-    }
-    footer {
-        margin-top: 25px;
-    }
