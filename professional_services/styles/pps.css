@@ -14,12 +14,12 @@ body {
 header {
     color: white;
     font-family: 'Courier New', Courier, 'Lucida Console', monospace;
-    background-color: rgba(0, 0, 0,0.1);  
+    background-color: rgba(0, 0, 0,0.2);  
 }
 nav {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-    grid-template-rows: repeat 1fr 1fr 1fr 1fr;   
+    grid-template-rows: 1fr 1fr;   
 }
 .pps-logo {
     display: flex;
@@ -47,15 +47,13 @@ nav {
 }
 .testimonials-button {
     display: grid;
-    grid-area: 3 / 12 / 4 / 15;
+    grid-area: 2 / 12 / 3 / 15;
     color: white;
     padding: 30px;
     background-color:rgba(220,195,122,0.9);
     align-content: center;
     margin: 10px;
-    font-size: 10;
     text-decoration: none;
-    text-shadow: #1a1a20;
     text-shadow: 3px  3px 3px black;
     
 }
@@ -167,7 +165,6 @@ footer {
     
 }
 .contactus {
-    font-style: none;
     color: white;
 }
 nav a:hover {
@@ -201,6 +198,9 @@ nav a:hover {
 .lupa {
     padding: 25px;
     margin: 0px 0px 0px 50px;
+}
+h3 {
+    font-size: .5em;
 }
 
 
@@ -295,7 +295,7 @@ nav a:hover {
         display: none;
     }
     nav a {
-        display:column;
+        display:block;
         padding: 15px;
     }
     #hero {
@@ -308,9 +308,10 @@ nav a:hover {
         font-size: 25px;
         color: #6f7364;
     }
+    .pss-intro-paragraph {
+        width:50%;
+    }
     footer {
         margin-top: 25px;
     }
-    .pss-intro-paragraph{
-        width:50%;
     }
