@@ -289,6 +289,68 @@ margin-bottom: 9%;
     background-color:rgba(204,184,178,0.75);
 
 }
+#testimonials-hero-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr 1fr 1fr;
+    text-shadow: 3px  3px 3px black;
+
+}
+.h10 {
+    grid-area: 1/4/6/13;
+    background-color: rgba(204,184,178,0.6);
+    font-size: 400%;
+    padding: 50px;
+    padding-right: 200px;
+    text-align: justify;
+    border: 10px solid white;
+}
+#testimonials-hero-msg {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+#testimonials-intro-paragraph {
+    grid-area: 1/3/4/14;
+    font-size: 150%;
+    border: 10px solid white;
+    text-shadow: 3px  3px 3px black;
+    border-style: dashed;
+}
+#references-box {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-top: 5%;
+    text-shadow: 3px  3px 3px black;
+    font-style: italic;
+    
+}
+#ashleypicture{
+    grid-area:1/2/3/5; 
+    width: 100%;
+    margin: 5%;
+    border-radius: 50%;
+}
+#testimonial1 {
+    grid-area: 1/6/3/15; 
+    border: 5px solid white;
+    margin: 5%;
+    background-color:#756120;
+}
+#erickpicture {
+    grid-area: 3/2/5/5;
+    width: 100%;
+    margin: 5%;
+    border-radius: 50%;
+}
+#testimonial2 {
+    grid-area: 3/6/5/15;
+    border: 5px solid white;
+    margin: 5%;
+    background-color:#756120;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid-pps {
         display: block;
