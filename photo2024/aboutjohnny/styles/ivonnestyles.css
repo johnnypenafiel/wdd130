@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+  }
+  nav {
+    background-color: rgba(123, 240, 232, 0.971);
+    padding: 25px;
+  }
+  a {
+    color: rgba(20, 15, 154, 0.655);
+    margin: 100px;
+  }
+  h1 {
+    color: steelblue;
+  }
+  img {
+    width: 800px;
+    border: 10px solid rgba(255, 0, 106, 0.407);
+  }
+  p {
+    padding: 10px;
+    text-align: center;
+  }
+  footer {
+    background-color:rgba(123, 240, 232, 0.971);
+    color: rgba(20, 15, 154, 0.655);
+  }
+  .main-para {
+    font-size: 1.2em;
+    line-height: 1.0em;
+}
